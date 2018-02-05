@@ -43,7 +43,7 @@ class DemoCarousel extends Component {
                 </div>
                 <div>
                     <img src="content/c.jpeg" />
-                    <p className="label">Title 3</p>
+                    <p className="label">Title C</p>
                 </div>
             </OpacityCarousel>
         );
@@ -56,8 +56,8 @@ ReactDOM.render(<DemoCarousel />, document.querySelector('.opac-carousel'));
 
 | Attributes            | Type          | Default | Description |
 | :---------            | :--:          | :-----: | :----------- |
-| abc            | `boolean`     | `true` | show prev and next arrows |
-| xyz            | `boolean`     | `true` | show index of the current item. i.e: (1/8) |
+| abc            | `boolean`     | `true` | abcd |
+| xyz            | `boolean`     | `true` | pqrs |
 
 
 
