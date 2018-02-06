@@ -31,7 +31,7 @@ import { OpacityCarousel } from 'react-opacity-carousel';
 class DemoCarousel extends Component {
     render() {
         return (
-            <OpacityCarousel>
+            <OpacityCarousel duration={4000} interval={20} fade="in-out">
                 <div>
                     <img src="content/a.jpeg" />
                     <p className="label">Title A</p>
@@ -77,3 +77,10 @@ ReactDOM.render(<DemoCarousel />, document.querySelector('.opac-carousel'));
 
 
 ## License
+
+Please see [LICENSE] for details.
+
+
+
+
+[LICENSE]: <https://github.com/hdhami/react-opacity-carousel/blob/master/LICENSE>
