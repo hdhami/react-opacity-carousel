@@ -1,5 +1,7 @@
 # React Opacity Carousel
 
+# Description
+
 
 Powerful, lightweight and fully customizable opacity carousel component for React apps.
 
