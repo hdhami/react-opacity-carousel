@@ -13,7 +13,6 @@ Powerful, lightweight and fully customizable opacity carousel component for Reac
 - Auto play feature
 - Custom auto play interval
 - Supports anything (image/videos/text content). Each direct child will be one slide
-- Supports callback
 
 ### Demo
 <https://github.com/hdhami>
@@ -56,8 +55,9 @@ ReactDOM.render(<DemoCarousel />, document.querySelector('.opac-carousel'));
 
 | Attributes            | Type          | Default | Description |
 | :---------            | :--:          | :-----: | :----------- |
-| abc            | `boolean`     | `true` | abcd |
-| xyz            | `boolean`     | `true` | pqrs |
+| duration            | `number`     | `4000` | animation duration for the list item in miliseconds |
+| interval            | `number`     | `20` | interval duration for list item's opacity state update  |
+| fade            | `string`     | `in-out` | type of fade effect on list item. Possible values are 'in', 'out','in-out' |
 
 
 
