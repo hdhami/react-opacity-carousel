@@ -1,0 +1,35 @@
+{
+  "name": "react-opacity-carousel",
+  "version": "1.0.0",
+  "description": "Opacity Carousel with Opacity Animation on List Items",
+  "main": "lib/index.js",
+  "peerDependencies": {
+    "react": "^16.2.0"
+  },
+  "dependencies": {
+    "react": "^16.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --progress --colors --watch",
+    "build": "webpack -p --progress --colors"
+  },
+  "author": {
+    "name": "Harish Singh Dhami",
+    "email": "hsd.1989@gmail.com"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.5.1",
+    "babel-preset-stage-0": "^6.24.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hdhami/react-opacity-carousel.git"
+  },
+  "license": "MIT"
+}
