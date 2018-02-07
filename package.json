@@ -1,6 +1,6 @@
 {
   "name": "react-opacity-carousel",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Opacity Carousel with Opacity Animation on List Items",
   "main": "lib/index.js",
   "peerDependencies": {
