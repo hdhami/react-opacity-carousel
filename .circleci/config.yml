@@ -1,7 +1,7 @@
 # Use the latest 2.1 version of CircleCI pipeline processing engine, see https://circleci.com/docs/2.0/configuration-reference/
 version: 2.1
 jobs:
-  build:
+  job-1:
     docker:
       - image: alpine:3.7
     steps:
@@ -14,5 +14,25 @@ jobs:
       - run:
           name: The Second Step
           command: |
-            echo ls
+            sleep 25
             echo 'code is checked out'
+  job-2:
+    docker:
+      - image: alpine:3.7
+    steps:
+      - checkout
+      - run:
+          name: The First Step
+          command: |
+            echo 'Hello World!'
+            echo 'This is the delivery pipeline'
+      - run:
+          name: The Second Step
+          command: |
+            sleep 15
+            echo 'code is checked out'
+workflows:
+  one_and_two:
+    jobs:
+      - job-1
+      - job-2
