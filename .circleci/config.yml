@@ -35,4 +35,6 @@ workflows:
   one_and_two:
     jobs:
       - job-1
-      - job-2
+      - job-2:
+          requires:
+            - job-1
