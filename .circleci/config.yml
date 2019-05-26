@@ -15,6 +15,7 @@ jobs:
           name: The Second Step
           command: |
             sleep 25
+            ls
             echo 'code is checked out'
   job-2:
     docker:
@@ -30,6 +31,7 @@ jobs:
           name: The Second Step
           command: |
             sleep 15
+            ls
             echo 'code is checked out'
 workflows:
   one_and_two:
